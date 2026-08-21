@@ -343,12 +343,6 @@ export const companyData = {
         image: "/images/legality/nib.jpg"
       },
       {
-        title: "Surat Izin Operasional Jasa Pengamanan",
-        number: "SI/7221/XI/YAN.2.14/2019",
-        issuer: "Mabes KEPOLISIAN NEGARA REPUBLIK INDONESIA",
-        image: "/images/legality/izin-polri.jpg"
-      },
-      {
         title: "Nomor Pokok Wajib Pajak (NPWP)",
         number: "85.280.707.2-721.000",
         issuer: "KPP Pratama Balikpapan",
