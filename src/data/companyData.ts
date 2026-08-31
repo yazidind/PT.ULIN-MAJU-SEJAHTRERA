@@ -59,8 +59,8 @@ export const companyData = {
   email: "nsamidj@yahoo.co.id",
   website: "www.ptulinmajusejahtera.com",
   whatsappNumbers: [
-    { display: "0812-5154-2229", raw: "6281251542229" },
-    { display: "0813-5135-3535", raw: "6281351353535" }
+    { display: "0816-333-526", raw: "62816333526" },
+    { display: "0816-333-526", raw: "62816333526" }
   ],
   phoneNumbers: ["08-1782-0007", "0813-5135-3535"],
   addressMain: "Jl. Jend Sudirman Komp. Ruko Balikpapan Permai RT 16 No. 6C Balikpapan",
