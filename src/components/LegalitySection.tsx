@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { companyData, LegalityDoc } from "@/data/companyData";
 import { FileCheck, ShieldCheck, CheckCircle2, Eye, FileText } from "lucide-react";
-import ImageModal from "./ImageModal";
+import PdfModal from "./PdfModal";
 
 export default function LegalitySection() {
   const leg = companyData.legality;
@@ -41,8 +41,8 @@ export default function LegalitySection() {
                     <FileCheck className="w-6 h-6" />
                   </div>
                   <span className="text-[11px] font-bold text-[#0F2537] bg-[#FFB800]/20 hover:bg-[#FFB800] px-2.5 py-1 rounded-full flex items-center space-x-1">
-                    <Eye className="w-3.5 h-3.5" />
-                    <span>Lihat Scan</span>
+                    <FileText className="w-3.5 h-3.5" />
+                    <span>Lihat PDF</span>
                   </span>
                 </div>
 
@@ -91,12 +91,12 @@ export default function LegalitySection() {
 
       </div>
 
-      {/* Lightbox Image Preview Modal */}
+      {/* PDF Document Modal Preview */}
       {selectedDoc && (
-        <ImageModal
+        <PdfModal
           isOpen={!!selectedDoc}
           onClose={() => setSelectedDoc(null)}
-          imageSrc={selectedDoc.image || "/images/legality/placeholder.jpg"}
+          pdfSrc={selectedDoc.file || selectedDoc.image || ""}
           title={selectedDoc.title}
           description={`Nomor: ${selectedDoc.number} | Penerbit: ${selectedDoc.issuer}`}
         />

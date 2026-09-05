@@ -32,7 +32,8 @@ export interface LegalityDoc {
   title: string;
   number: string;
   issuer: string;
-  image?: string; // Path gambar/scan perizinan di folder public/images/legality/
+  file?: string; // Path file PDF perizinan di folder public/images/legality/
+  image?: string; // Fallback path gambar
 }
 
 export interface GalleryItem {
@@ -313,7 +314,7 @@ export const companyData = {
     ]
   },
 
-  // Legalitas Perusahaan (Tambahkan opsi field 'image' untuk file scan perizinan di folder public/images/legality/)
+  // Legalitas Perusahaan (Tautan berkas PDF perizinan di folder public/images/legality/)
   legality: {
     heading: "Lampiran Legalitas & Perizinan",
     subtitle: "PT. Ulin Maju Sejahtera telah mengantongi izin resmi dan legalitas hukum lengkap dari instansi pemerintah dan Kepolisian Republik Indonesia.",
@@ -322,43 +323,31 @@ export const companyData = {
         title: "Akta Notaris Pendirian PT",
         number: "No. 02, Tanggal 05 Juni 2018",
         issuer: "Notaris Andreas Gunawan, S.H., M.Kn",
-        image: "/images/legality/akta.jpg"
-      },
-      {
-        title: "Pengesahan Kemenkumham RI",
-        number: "AHU-0029320.AH.01.01.Tahun 2018",
-        issuer: "Menteri Hukum dan HAM Republik Indonesia",
-        image: "/images/legality/kemenkumham.jpg"
+        file: "/images/legality/Akta Notaris.pdf"
       },
       {
         title: "Surat Izin Usaha Perdagangan (SIUP)",
         number: "0375/17-05/DPMPT/SIUP/PM/2018",
         issuer: "Dinas Penanaman Modal & Perizinan Terpadu Balikpapan",
-        image: "/images/legality/siup.jpg"
+        file: "/images/legality/IZIN USAHA.pdf"
       },
       {
         title: "Nomor Induk Berusaha (NIB)",
         number: "NIB: 9120011091269",
         issuer: "Pemerintah Republik Indonesia (OSS RBA)",
-        image: "/images/legality/nib.jpg"
+        file: "/images/legality/NIB-ULIN.pdf"
       },
       {
         title: "Nomor Pokok Wajib Pajak (NPWP)",
         number: "85.280.707.2-721.000",
         issuer: "KPP Pratama Balikpapan",
-        image: "/images/legality/npwp.jpg"
+        file: "/images/legality/NPWP.pdf"
       },
       {
         title: "Sertifikat BPJS Ketenagakerjaan",
         number: "No. 18000000492802",
         issuer: "BPJS Ketenagakerjaan Republik Indonesia",
-        image: "/images/legality/bpjs.jpg"
-      },
-      {
-        title: "Sertifikat Anggota ABUJAPI",
-        number: "No. 02688/29-08-2019",
-        issuer: "Asosiasi Badan Usaha Jasa Pengamanan Indonesia",
-        image: "/images/legality/abujapi.jpg"
+        file: "/images/legality/BPJS TKU ULIN.pdf"
       }
     ]
   },
