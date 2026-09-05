@@ -57,13 +57,12 @@ export const companyData = {
   // Detail Legalitas & Kontak
   npwp: "85.280.707.2-721.000",
   nib: "9120011091269",
-  email: "nsamidj@yahoo.co.id",
+  email: "ulinmajusejahtera@gmail.com",
   website: "www.ptulinmajusejahtera.com",
   whatsappNumbers: [
-    { display: "0816-333-526", raw: "62816333526" },
     { display: "0816-333-526", raw: "62816333526" }
   ],
-  phoneNumbers: ["08-1782-0007", "0813-5135-3535"],
+  phoneNumbers: ["0816-333-526"],
   addressMain: "Jl. Jend Sudirman Komp. Ruko Balikpapan Permai RT 16 No. 6C Balikpapan",
   addressOffice: "Jl. Pupuk Raya RT 14 No. 6C Kel. Damai Kota Balikpapan Kalimantan Timur",
 
@@ -361,37 +360,37 @@ export const companyData = {
         title: "Pelatihan & Upacara Pembukaan Gada Utama",
         category: "Pelatihan",
         desc: "Academy of Security Excellence - Graha Anabatic Tangerang",
-        image: "/images/gallery/pelatihan-1.jpg"
+        image: "/images/gallery/gadautama.jpeg"
       },
       {
         title: "Apel Siaga & Penyiapan Satuan Keamanan",
         category: "Kegiatan",
         desc: "Briefing dan pengecekan kedisiplinan rutin anggota security",
-        image: "/images/gallery/pelatihan-2.jpg"
+        image: "/images/gallery/apel-siaga.jpeg"
       },
       {
-        title: "Sertifikasi Gada Utama Korbinmas POLRI",
-        category: "Sertifikasi",
-        desc: "Penyerahan ijazah & kualifikasi pengamanan tingkat utama",
-        image: "/images/gallery/sertifikasi.jpg"
+        title: "Upacara Memperingati HUT Satpam Nasional",
+        category: "Upacara Resmi",
+        desc: "Memperingati HUT Satpam Nasional 30 Desember 2026 ke-44",
+        image: "/images/gallery/upacara-hut.jpeg"
       },
       {
-        title: "Penempatan Tim Security & Cleaning di Lapangan",
+        title: "Penempatan Tim Security di Lapangan",
         category: "Penempatan",
         desc: "Kunjungan & pengawasan kinerja di area kerja Klien",
-        image: "/images/gallery/penempatan.jpg"
+        image: "/images/gallery/penempatan.jpeg"
       },
       {
-        title: "Konferensi Industri Jasa Pengamanan (KIPNAS)",
+        title: "MUNAS IV ABUJAPI",
         category: "Acara Resmi",
-        desc: "Keikutsertaan pimpinan dalam konferensi nasional pengamanan",
-        image: "/images/gallery/kipnas.jpg"
+        desc: "Musyawarah Nasional IV Asosiasi Badan Usaha Jasa Pengamanan Indonesia (ABUJAPI)",
+        image: "/images/gallery/musyawarah-nasional.jpeg"
       },
       {
         title: "Koordinasi Manajemen & Silaturahmi Mitra",
         category: "Manajemen",
         desc: "Pertemuan rutin bersama instansi pemerintah & jajaran Polda Kaltim",
-        image: "/images/gallery/koordinasi.jpg"
+        image: "/images/gallery/koordinasi-mitra.jpeg"
       }
     ]
   },
